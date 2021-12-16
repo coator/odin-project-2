@@ -1,12 +1,76 @@
+h1 {
+  font-size:48px;
+  font-weight: bolder;
+  color: #F9FAf8;
+}
+
+h2 {
+  font-size:24px;
+  color: #F9FAf8;
+}
+
+h3{
+  font-size: 18px;
+  font-weight: bold;
+  color:#E5E7EB
+}
+
 .header {
   color:black;
   border:1px solid steelblue;
   display: flex;
-  padding: 10px 12px;
-  background-color:midnightblue;
+  padding: 10px 100px;
   flex-flow: row wrap;
-  flex-basis: 500px;
-  height: 500px;
+  background-color:#1F2947;
+  justify-content: space-evenly;
+}
+
+.logo-line{
+  display: flex;
+  padding: 10px 12px;
+  flex:1 1 100%;
+  height: 250px;
+  justify-content: space-between;
+  font-size: 18px;
+  color: #E5E7EB;
+}
+
+/*.logo-line>*{
+  border: 1px dotted black;
+  display: flex;
+  padding: 10px 12px;
+  background-color:#eee ;
+}
+*/
+.logo {
+  display: flex;
+  padding: 10px 12px;
+  flex: 1 1 270px;
+
+}
+
+.header-link-container{
+  display: flex;
+  padding: 10px 12px;
+}
+
+.header-link-container a {
+  color:#e5e7eb;
+  text-decoration:none;
+  padding: 12px;
+}
+
+.header-content{
+  border: 1px dotted black;
+  display: flex;
+  padding: 10px 12px;
+  margin-bottom: 0px;
+  flex: 100%;
+  margin:10px 10px;
+}
+
+.header-content .header-text{
+ flex:40%
 }
 
 .content {
@@ -17,11 +81,54 @@
   padding: 20px 12px;
 }
 
+.content-container-top {
+  border: 1px dotted black;
+  display: flex;
+  padding: 10px 12px;
+  background-color:#eee ;
+}
+
+.content-photo-holder {
+  border: 1px dotted black;
+  display: flex;
+  padding: 10px 12px;
+  background-color:#eee ;
+}
+
+.content-photo {
+  border: 1px dotted black;
+  display: flex;
+  padding: 10px 12px;
+  background-color:#eee ;
+}
+
+.content-quote-holder {
+  border: 1px dotted black;
+  display: flex;
+  padding: 10px 12px;
+  background-color:#e5e7eb ;
+  font-size: 36px;
+  font-style: italic;
+  color:#1f2937
+}
+
+.call-to-action {
+  border: 1px dotted black;
+  display: flex;
+  padding: 10px 12px;
+  background-color:#3882f6 ;
+}
+
+.call-to-action>h1{
+  font-size: 36px;
+  color:#1F2937
+}
+
 .footer {
   color:springgreen;
   border: 1px dotted brown;
   display: flex;
   padding: 12px 18px;
   bottom: 5px;
-  background-color: indigo;
+  background-color:#1F2947;
 }
