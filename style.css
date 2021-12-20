@@ -1,0 +1,161 @@
+body{
+  margin:0px;
+}
+
+h1 {
+  font-size:48px;
+  font-weight: bolder;
+  color: #F9FAf8;
+}
+
+h2 {
+  font-size:24px;
+  color: #F9FAf8;
+}
+
+h3{
+  font-size: 18px;
+  font-weight: bold;
+  color:#E5E7EB
+}
+
+h4 {
+  font-size: 36px;
+  color:#1F1937;
+  font-weight:bolder;
+}
+
+.header {
+  color:black;
+  display: flex;
+  padding: 10px 10%;
+  flex-flow: column nowrap;
+  background-color:#1F2947;
+  justify-content: space-evenly;
+}
+
+.logo-container{
+  display: flex;
+  padding: 10px 12px;
+  flex:1 1 100%;
+  justify-content: space-between;
+  align-items: flex-start;
+  font-size: 18px;
+  color: #E5E7EB;
+}
+
+.logo-link-container{
+  margin-right: 25px;
+  margin-top:15px;
+  display: flex;
+  flex-direction: row;
+}
+
+.logo-link-container a {
+  color:#e5e7eb;
+  text-decoration:none;
+  padding: 12px;
+}
+
+.logo {
+  display: flex;
+  flex:10%;
+  height: 200px;
+
+}
+
+
+
+.header-content{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 100px;
+}
+
+.header-content .header-text{
+ flex:50%;
+ padding-left:50px;
+ padding-right: 40px;
+}
+
+.header-content .header-img {
+  display: flex;
+  flex:50%;
+  flex-direction: row-reverse;
+  height: 350px;
+}
+
+
+.header-img img{
+  height: 100%;
+}
+
+
+
+
+
+
+.content {
+  color:  beige;
+  background-color: darkred;
+  border: 2px double blue;
+  display: flex;
+  padding: 20px 12px;
+  flex-direction: column;
+}
+
+.content-container-top, .content-photo-holder {
+  display: flex;
+  background-color:#eee ;
+  justify-content: center;
+}
+
+.content-container-top h4{
+  border: dotted 25px maroon;
+}
+
+.content-photo {
+  border: 1px dotted black;
+  display: flex;
+  background-color: #eee ;
+  justify-content: center;
+  margin: 0px 20px 40px 20px;
+}
+
+.content-photo img{
+  max-width: 250px;
+  border: dotted 25px maroon;
+  padding:5px;
+}
+
+.content-quote-holder {
+  border: 1px dotted black;
+  display: flex;
+  padding: 10px 12px;
+  background-color:#e5e7eb ;
+  font-size: 36px;
+  font-style: italic;
+  color:#1f2937
+}
+
+.call-to-action {
+  border: 1px dotted black;
+  display: flex;
+  padding: 10px 12px;
+  background-color:#3882f6 ;
+}
+
+.call-to-action>h1{
+  font-size: 36px;
+  color:#1F2937
+}
+
+.footer {
+  color:springgreen;
+  border: 1px dotted brown;
+  display: flex;
+  padding: 12px 18px;
+  bottom: 5px;
+  background-color:#1F2947;
+}
