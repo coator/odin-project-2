@@ -25,6 +25,12 @@ h4 {
   font-weight:bolder;
 }
 
+h5 {
+  font-size:48;
+  color: #1F1937;
+  font-weight: lighter;
+}
+
 .header {
   color:black;
   display: flex;
@@ -98,10 +104,7 @@ h4 {
 
 .content {
   color:  beige;
-  background-color: darkred;
-  border: 2px double blue;
   display: flex;
-  padding: 20px 12px;
   flex-direction: column;
 }
 
@@ -111,9 +114,6 @@ h4 {
   justify-content: center;
 }
 
-.content-container-top h4{
-  border: dotted 25px maroon;
-}
 
 .content-photo {
   border: 1px dotted black;
@@ -125,37 +125,79 @@ h4 {
 
 .content-photo img{
   max-width: 250px;
-  border: dotted 25px maroon;
   padding:5px;
 }
 
-.content-quote-holder {
+
+
+
+
+.quote-holder {
   border: 1px dotted black;
   display: flex;
-  padding: 10px 12px;
   background-color:#e5e7eb ;
   font-size: 36px;
   font-style: italic;
-  color:#1f2937
-}
-
-.call-to-action {
-  border: 1px dotted black;
+  color:#1f2937;
+  padding:220px 300px;
   display: flex;
-  padding: 10px 12px;
-  background-color:#3882f6 ;
+  flex-direction: column;
+  align-items: center;
 }
 
-.call-to-action>h1{
-  font-size: 36px;
-  color:#1F2937
+.quote-holder h4 {
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+  margin: 0px;
 }
+
+
+
 
 .footer {
   color:springgreen;
-  border: 1px dotted brown;
   display: flex;
   padding: 12px 18px;
   bottom: 5px;
   background-color:#1F2947;
+  height:400px;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.call-to-action {
+  padding: 50px 200px;
+  border: 1px dotted black;
+  display: flex;
+  background-color:#3882f6 ;
+
+}
+ 
+
+.textbox{
+  width: 70%;
+}
+
+.textbox>h1{
+  font-size: 24px;
+  color: #eee;
+  padding: 0px;
+  margin: 0px;
+}
+
+.textbox>h2{
+  font-size: 20px;
+  color:#eee;
+  font-weight: lighter;
+  padding: 0px;
+  margin: 0px;
+}
+
+
+.call-to-action button{
+  color: #3882f6;
+  border: #eee;
+  width: 30%;
 }
